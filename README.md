@@ -8,5 +8,8 @@
 - No less than 16G RAM.
 - One or more high-end NVIDIA GPUs is highly recommended to accelerate training process.
 
+## Demonstration
+![demonstration](/assets/demonstration.png)
+
 ## Notice
 Due to the hardware limitation of my laptop, the network model (seq2seq.h5 file in the "model" folder) was trained on a subset of original corpus, i.e., num_samples=1000, in order to avoid memory overflow. If your hardware configuration is high enough, you can choose to set num_samples=None to use the whole corpus for training.
