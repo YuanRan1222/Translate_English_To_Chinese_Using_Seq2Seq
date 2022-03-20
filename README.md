@@ -1,4 +1,5 @@
 # A simplified implementation of Seq2Seq for machine translation from English to Chinese
+190 lines of code for English-Chinese Translation
 
 ## Requirements
 
