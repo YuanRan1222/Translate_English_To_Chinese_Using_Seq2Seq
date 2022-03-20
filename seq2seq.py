@@ -56,7 +56,7 @@ class Translate:
         self.n_units = n_units  # seq2seq模型LSTM隐层节点数
         self.num_samples = num_samples  # 如果num_samples=None，则读取全部数据
         self.load_data()  # 读取数据
-        self.build_model()  # 向量化
+        self.build_model()  # 创建seq2seq模型
 
     def load_data(self):  # 读取数据
         df = pd.read_table(self.data_path, header=None)  # 读取txt数据
