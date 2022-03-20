@@ -178,7 +178,7 @@ class Translate:
                 print("--------感谢使用！--------")
                 break
             target = self.infer(source)
-            print(target)  # 输入翻译结果
+            print(target)  # 输出翻译结果
 
 
 if __name__ == "__main__":
